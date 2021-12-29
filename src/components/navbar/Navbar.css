@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+  }
+
+  .logo {
+      float: left;
+      width: 65px;
+      margin: 0;
+      padding: 5px;
+      /*background: rgba(255, 255, 255, 0.2);*/
+    }
+
+    .nav-right{
+        float: right;
+    }
+    
+  .site-layout .site-layout-background {
+    background: #fff;
+  }
+  [data-theme="dark"] .site-layout .site-layout-background {
+    background: #141414;
+  }
+
+  @media (max-width: 400px) {
+    .menu {
+      display: none;
+    }
+  }
